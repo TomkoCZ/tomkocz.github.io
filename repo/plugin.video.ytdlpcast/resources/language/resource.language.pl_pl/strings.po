@@ -1,0 +1,716 @@
+# Kodi Media Center language file
+# Addon Name: yt-dlp Cast
+# Addon id: plugin.video.ytdlpcast
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.ytdlpcast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgctxt "#30011"
+msgid "yt-dlp could not resolve this video"
+msgstr "yt-dlp nie zdołał rozwiązać tego filmu"
+
+msgctxt "#30012"
+msgid "No playable stream found"
+msgstr "Nie znaleziono strumienia do odtworzenia"
+
+msgctxt "#30013"
+msgid "Open settings"
+msgstr "Otwórz ustawienia"
+
+msgctxt "#30100"
+msgid "Playback"
+msgstr "Odtwarzanie"
+
+msgctxt "#30101"
+msgid "Fall back to a progressive stream"
+msgstr "Awaryjnie użyj strumienia progresywnego"
+
+msgctxt "#30102"
+msgid "If no HLS manifest is offered, play the best single file that carries both video and audio. Most YouTube videos no longer have one, so this rarely helps."
+msgstr "Gdy film nie udostępnia manifestu HLS, odtwórz najlepszy pojedynczy plik zawierający obraz i dźwięk razem. Na YouTube pomaga rzadko, bo takie formaty w większości już nie istnieją; przydaje się na innych serwisach."
+
+msgctxt "#30103"
+msgid "Always send the manifest_type property"
+msgstr "Zawsze wysyłaj właściwość manifest_type"
+
+msgctxt "#30104"
+msgid "InputStream Adaptive 20 (Kodi 20 Nexus) opens no manifest without it, so it is sent there automatically. InputStream Adaptive 21 detects the type itself; enable this only if playback fails with a manifest type error."
+msgstr "InputStream Adaptive 20 (Kodi 20 Nexus) bez niej nie otworzy manifestu, więc tam jest wysyłana automatycznie. InputStream Adaptive 21 rozpoznaje typ sam; włącz tylko wtedy, gdy odtwarzanie kończy się błędem typu manifestu."
+
+msgctxt "#30110"
+msgid "Picture & sound (YouTube)"
+msgstr "Obraz i dźwięk (YouTube)"
+
+msgctxt "#30111"
+msgid "Maximum resolution"
+msgstr "Maksymalna rozdzielczość"
+
+msgctxt "#30112"
+msgid "Variants above this height are removed from the manifest before InputStream Adaptive sees it. \"No limit\" leaves the choice to its adaptive logic."
+msgstr "Warianty powyżej tej wysokości są usuwane z manifestu, zanim zobaczy go InputStream Adaptive. „Bez ograniczeń” zostawia wybór jego logice adaptacyjnej."
+
+msgctxt "#30113"
+msgid "No limit"
+msgstr "Bez ograniczeń"
+
+msgctxt "#30114"
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+msgctxt "#30115"
+msgid "1440p"
+msgstr "1440p"
+
+msgctxt "#30116"
+msgid "1080p"
+msgstr "1080p"
+
+msgctxt "#30117"
+msgid "720p"
+msgstr "720p"
+
+msgctxt "#30118"
+msgid "480p"
+msgstr "480p"
+
+msgctxt "#30119"
+msgid "Video codec"
+msgstr "Kodek wideo"
+
+msgctxt "#30120"
+msgid "YouTube offers H.264 and VP9 up to 1080p and VP9 alone above it. \"H.264 only\" caps playback at 1080p; \"VP9 only\" needs hardware VP9 decoding. A choice that would leave nothing to play is ignored."
+msgstr "YouTube udostępnia H.264 i VP9 do 1080p, a powyżej wyłącznie VP9. „Tylko H.264” ogranicza więc odtwarzanie do 1080p, a „Tylko VP9” wymaga sprzętowego dekodowania VP9. Wybór, po którym nie zostałby żaden wariant, jest ignorowany."
+
+msgctxt "#30121"
+msgid "Auto"
+msgstr "Automatycznie"
+
+msgctxt "#30122"
+msgid "H.264 only"
+msgstr "Tylko H.264"
+
+msgctxt "#30123"
+msgid "VP9 only"
+msgstr "Tylko VP9"
+
+msgctxt "#30124"
+msgid "Audio track"
+msgstr "Ścieżka dźwiękowa"
+
+msgctxt "#30125"
+msgid "InputStream Adaptive on Kodi 21 starts YouTube's packed-ADTS audio silent until the first seek. \"fMP4 (fixed)\" replaces it with YouTube's DASH AAC track in fMP4, read by the same demuxer as the video, so sound plays from the first frame. \"As published\" keeps YouTube's own audio (silent-until-seek) for diagnosis."
+msgstr "InputStream Adaptive na Kodi 21 startuje bez dźwięku przy audio YouTube w formacie packed-ADTS — dźwięk pojawia się dopiero po pierwszym przewinięciu. „fMP4 (naprawione)” podmienia je na ścieżkę DASH AAC w kontenerze fMP4, czytaną tym samym demuxerem co obraz, więc dźwięk gra od pierwszej klatki. „Jak udostępnia YouTube” zostawia oryginalne audio do celów diagnostycznych."
+
+msgctxt "#30126"
+msgid "fMP4 (fixed)"
+msgstr "fMP4 (naprawione)"
+
+msgctxt "#30127"
+msgid "As published"
+msgstr "Jak udostępnia YouTube"
+
+msgctxt "#30140"
+msgid "Subtitles"
+msgstr "Napisy"
+
+msgctxt "#30141"
+msgid "Download subtitles"
+msgstr "Pobieraj napisy"
+
+msgctxt "#30142"
+msgid "Downloads one subtitle track, as a file Kodi labels by language: the one the video's author uploaded in the subtitle language, else in the fallback language; else, if allowed below, YouTube's automatic captions in the video's own language; else the first track the author uploaded. YouTube's own subtitle list is left out of the stream, so Kodi offers just this track."
+msgstr "Pobiera jedną ścieżkę napisów jako plik, któremu Kodi nadaje etykietę językową: wgraną przez autora filmu w języku napisów, a gdy jej nie ma — w języku zapasowym; potem, jeśli pozwala na to opcja niżej, napisy automatyczne YouTube w języku filmu; na końcu pierwszą ścieżkę wgraną przez autora. Własna lista napisów YouTube jest usuwana ze strumienia, więc Kodi pokazuje tylko tę jedną ścieżkę."
+
+msgctxt "#30143"
+msgid "Subtitle language"
+msgstr "Język napisów"
+
+msgctxt "#30144"
+msgid "The language of the subtitle track to download, Kodi's interface language by default. When the video has no subtitles in it, the fallback language below is tried; when it has neither, the first track the author uploaded is downloaded."
+msgstr "Język ścieżki napisów do pobrania, domyślnie język interfejsu Kodi. Gdy film nie ma w nim napisów, próbowany jest język zapasowy poniżej; gdy nie ma żadnego z nich, pobierana jest pierwsza ścieżka wgrana przez autora."
+
+msgctxt "#30145"
+msgid "Fallback language"
+msgstr "Język zapasowy"
+
+msgctxt "#30146"
+msgid "Tried when the video has no subtitles in the language above. When it has neither, the first track the author uploaded is downloaded instead."
+msgstr "Próbowany, gdy film nie ma napisów w języku powyżej. Gdy nie ma żadnego z nich, pobierana jest pierwsza ścieżka wgrana przez autora."
+
+msgctxt "#30147"
+msgid "Kodi's interface language"
+msgstr "Język interfejsu Kodi"
+
+msgctxt "#30148"
+msgid "None"
+msgstr "Brak"
+
+msgctxt "#30150"
+msgid "Rewrite YouTube's manifest (enables the settings below)"
+msgstr "Przepisuj manifest YouTube (włącza ustawienia poniżej)"
+
+msgctxt "#30151"
+msgid "YouTube only: videos from other sites always play with their manifest as published, whatever is set here — the rewrite fixes YouTube's own quirks, which other sites do not have. The settings below work by rewriting YouTube's HLS master playlist and serving the copy from 127.0.0.1 to InputStream Adaptive. Switch this off to hand over YouTube's manifest as published, with one exception: YouTube's own subtitle list is still removed, because InputStream Adaptive fetching those subtitles gets the address blocked."
+msgstr "Dotyczy tylko YouTube: filmy z innych serwisów zawsze grają z manifestem w postaci opublikowanej, niezależnie od tych ustawień — przepisywanie naprawia przypadłości samego YouTube, których inne serwisy nie mają. Ustawienia poniżej działają przez przepisanie manifestu HLS YouTube i udostępnienie kopii z adresu 127.0.0.1 dla InputStream Adaptive. Wyłącz, aby przekazywać manifest YouTube w postaci opublikowanej, z jednym wyjątkiem: własna lista napisów YouTube i tak jest usuwana, bo pobieranie tych napisów przez InputStream Adaptive kończy się blokadą adresu."
+
+msgctxt "#30152"
+msgid "Quality selection"
+msgstr "Wybór jakości"
+
+msgctxt "#30153"
+msgid "\"Adaptive\" keeps every allowed variant and lets InputStream Adaptive switch by measured bandwidth. \"Best available\" keeps only the tallest, highest-bitrate variant that passed the codec and resolution settings, so it plays at that quality from the first second — and buffers rather than adapts if the connection cannot carry it."
+msgstr "„Adaptacyjnie” zostawia wszystkie dozwolone warianty i pozwala InputStream Adaptive przełączać je według zmierzonej przepustowości. „Najlepsza dostępna” zostawia tylko wariant o najwyższej rozdzielczości i najwyższym bitrate spośród tych, które przeszły ustawienia kodeka i rozdzielczości — odtwarzanie startuje od razu w tej jakości, ale przy zbyt wolnym łączu będzie buforować zamiast się dostosować."
+
+msgctxt "#30154"
+msgid "Adaptive"
+msgstr "Adaptacyjnie"
+
+msgctxt "#30155"
+msgid "Best available"
+msgstr "Najlepsza dostępna"
+
+msgctxt "#30156"
+msgid "Local manifest server port"
+msgstr "Port lokalnego serwera manifestów"
+
+msgctxt "#30157"
+msgid "Rewritten manifests are served to InputStream Adaptive from 127.0.0.1 on this port. Change it only if another add-on already uses it (plugin.video.youtube uses 50152); the server restarts on its own. While it cannot be reached, each playback serves its manifest itself, on a port the system picks."
+msgstr "Przepisane manifesty są udostępniane dla InputStream Adaptive z adresu 127.0.0.1 na tym porcie. Zmień tylko wtedy, gdy port zajmuje inny dodatek (plugin.video.youtube używa 50152); serwer przeładuje się sam. Gdy jest nieosiągalny, każde odtworzenie samo udostępnia swój manifest, na porcie wybranym przez system."
+
+msgctxt "#30160"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "#30161"
+msgid "Update channel"
+msgstr "Kanał aktualizacji"
+
+msgctxt "#30162"
+msgid "Where new yt-dlp versions come from. Nightly is built every day from the project's main branch, and fixes for YouTube changes arrive there first. Stable is released less often (yt-dlp promises a release at least every 90 days). After switching, use \"Check for updates now\"."
+msgstr "Skąd pochodzą nowe wersje yt-dlp. Nightly budowany jest codziennie z głównej gałęzi projektu i to tam najpierw trafiają poprawki pod zmiany YouTube. Stable wydawany jest rzadziej (yt-dlp obiecuje wydanie najpóźniej co 90 dni). Po zmianie kanału użyj „Sprawdź aktualizacje teraz”."
+
+msgctxt "#30163"
+msgid "Nightly"
+msgstr "Nightly"
+
+msgctxt "#30164"
+msgid "Stable"
+msgstr "Stable"
+
+msgctxt "#30165"
+msgid "Update automatically"
+msgstr "Aktualizuj automatycznie"
+
+msgctxt "#30166"
+msgid "Checks for a new yt-dlp a minute after Kodi starts and then once a day, in the background, and compiles it once so playback starts fast. A new version is used only after it has been checked against Kodi's Python: one that needs a newer Python is rejected and the current one stays. Off: yt-dlp changes only when you choose Update under Check for updates now."
+msgstr "Sprawdza nowy yt-dlp minutę po starcie Kodi, potem raz na dobę, w tle, i kompiluje go jednorazowo, żeby odtwarzanie startowało szybko. Nowa wersja jest używana dopiero po sprawdzeniu zgodności z Pythonem Kodi: taka, która wymaga nowszego Pythona, jest odrzucana i zostaje obecna. Wyłączone: yt-dlp zmienia się tylko po wybraniu Aktualizuj w Sprawdź aktualizacje teraz."
+
+msgctxt "#30167"
+msgid "Check for updates now"
+msgstr "Sprawdź aktualizacje teraz"
+
+msgctxt "#30168"
+msgid "Shows the version in use and the newest one on the selected channel. When there is a newer one, Update downloads it, checks it against Kodi's Python and compiles it, showing each step; when it says ready, the next playback uses it. Cancel leaves everything as it was."
+msgstr "Pokazuje używaną wersję i najnowszą na wybranym kanale. Gdy jest nowsza, Aktualizuj pobiera ją, sprawdza zgodność z Pythonem Kodi i kompiluje, pokazując każdy krok; gdy pojawi się informacja o gotowości, kolejne odtworzenie już jej używa. Anulowanie zostawia wszystko bez zmian."
+
+msgctxt "#30170"
+msgid "yt-dlp {} is up to date"
+msgstr "yt-dlp {} jest aktualny"
+
+msgctxt "#30171"
+msgid "yt-dlp updated to {}"
+msgstr "Zaktualizowano yt-dlp do {}"
+
+msgctxt "#30172"
+msgid "yt-dlp update not applied: {}"
+msgstr "Nie zastosowano aktualizacji yt-dlp: {}"
+
+msgctxt "#30173"
+msgid "yt-dlp update failed: {}"
+msgstr "Aktualizacja yt-dlp nie powiodła się: {}"
+
+msgctxt "#30180"
+msgid "Cast"
+msgstr "Przesyłanie"
+
+msgctxt "#30181"
+msgid "Receive casts from the YouTube app"
+msgstr "Odbieraj przesyłanie z aplikacji YouTube"
+
+msgctxt "#30182"
+msgid "Kodi appears as a TV in the YouTube app on your phone: tap the cast button and pick it. Videos then play here through yt-dlp, and the phone works as the remote. While this is on, Kodi keeps one connection to youtube.com open so the phone can reach it."
+msgstr "Kodi pojawia się jako telewizor w aplikacji YouTube na telefonie: naciśnij przycisk przesyłania i wybierz go. Filmy grają wtedy tutaj przez yt-dlp, a telefon służy za pilota. Gdy to jest włączone, Kodi utrzymuje jedno połączenie z youtube.com, żeby telefon mógł się do niego dostać."
+
+msgctxt "#30183"
+msgid "Name shown on the phone"
+msgstr "Nazwa widoczna w telefonie"
+
+msgctxt "#30184"
+msgid "Leave empty for Kodi's own name followed by \"(yt-dlp)\", e.g. \"CoreELEC (yt-dlp)\" — different from what TubeCast shows, should both be installed."
+msgstr "Puste pole oznacza nazwę Kodi z dopiskiem „(yt-dlp)”, np. „CoreELEC (yt-dlp)” — inną niż ta, którą pokazuje TubeCast, gdyby oba były zainstalowane."
+
+msgctxt "#30185"
+msgid "Discoverable on the local network"
+msgstr "Widoczny w sieci lokalnej"
+
+msgctxt "#30186"
+msgid "Answers the YouTube app's search on the local network (SSDP and DIAL), so Kodi shows up in the cast menu by itself. Switch off to connect only with a TV code."
+msgstr "Odpowiada na wyszukiwanie aplikacji YouTube w sieci lokalnej (SSDP i DIAL), więc Kodi sam pojawia się w menu przesyłania. Wyłącz, by łączyć się wyłącznie kodem TV."
+
+msgctxt "#30187"
+msgid "Link with a TV code"
+msgstr "Połącz kodem TV"
+
+msgctxt "#30188"
+msgid "Shows a code to type into the YouTube app (Settings → Watch on TV → Enter TV code). Works when the phone is on another network, or when the local search does not find Kodi. A linked phone stays linked across restarts."
+msgstr "Pokazuje kod do wpisania w aplikacji YouTube (Ustawienia → Oglądaj na telewizorze → Wpisz kod TV). Działa, gdy telefon jest w innej sieci albo gdy wyszukiwanie w sieci lokalnej nie znajduje Kodi. Połączony telefon pozostaje połączony po restarcie."
+
+
+msgctxt "#30191"
+msgid "{} connected"
+msgstr "Połączono: {}"
+
+msgctxt "#30192"
+msgid "{} disconnected"
+msgstr "Rozłączono: {}"
+
+msgctxt "#30193"
+msgid "Casting is switched off in the settings"
+msgstr "Przesyłanie jest wyłączone w ustawieniach"
+
+msgctxt "#30194"
+msgid "Not connected to YouTube yet — try again in a moment"
+msgstr "Jeszcze brak połączenia z YouTube — spróbuj za chwilę"
+
+msgctxt "#30195"
+msgid "Could not get a TV code: {}"
+msgstr "Nie udało się pobrać kodu TV: {}"
+
+msgctxt "#30196"
+msgid "In the YouTube app on the phone open Settings → Watch on TV → Enter TV code, and type:"
+msgstr "W aplikacji YouTube na telefonie otwórz Ustawienia → Oglądaj na telewizorze → Wpisz kod TV i wpisz:"
+
+msgctxt "#30197"
+msgid "Phone linked"
+msgstr "Telefon połączony"
+
+msgctxt "#30198"
+msgid "TubeCast is enabled as well, so the phone lists two receivers for this box. Disable one of them."
+msgstr "TubeCast też jest włączony, więc telefon pokaże dwa odbiorniki dla tego urządzenia. Wyłącz jeden z nich."
+
+msgctxt "#30169"
+msgid "the downloaded one does not work"
+msgstr "pobrana nie działa"
+
+msgctxt "#30175"
+msgid "Version in use"
+msgstr "Używana wersja"
+
+msgctxt "#30176"
+msgid "Last check"
+msgstr "Ostatnie sprawdzenie"
+
+msgctxt "#30177"
+msgid "downloaded"
+msgstr "pobrana"
+
+msgctxt "#30178"
+msgid "bundled copy"
+msgstr "kopia wbudowana"
+
+msgctxt "#30179"
+msgid "not checked yet"
+msgstr "jeszcze nie sprawdzano"
+
+msgctxt "#30200"
+msgid "Diagnostics"
+msgstr "Diagnostyka"
+
+msgctxt "#30201"
+msgid "Enable all diagnostics"
+msgstr "Włącz całą diagnostykę"
+
+msgctxt "#30202"
+msgid "Turns on every switch below at once — for a complete log to report a problem with. Each switch writes to kodi.log at INFO level, so Kodi's own debug logging is not needed. Without any switch the add-on logs only warnings, errors and one summary line per playback, update check and phone connection."
+msgstr "Włącza naraz wszystkie przełączniki poniżej — dla pełnego logu do zgłoszenia problemu. Każdy przełącznik pisze do kodi.log na poziomie INFO, więc tryb debugowania Kodi nie jest potrzebny. Bez żadnego przełącznika wtyczka zapisuje tylko ostrzeżenia, błędy i po jednej linii podsumowania na odtworzenie, sprawdzenie aktualizacji i połączenie telefonu."
+
+msgctxt "#30204"
+msgid "Resolving the video"
+msgstr "Rozwiązywanie filmu"
+
+msgctxt "#30205"
+msgid "yt-dlp's progress while it resolves a video, how long it took, and what YouTube offered: whether there is an HLS manifest, resolutions and codecs, audio tracks, subtitles. Shows at which step resolving fails and why a quality is missing."
+msgstr "Postęp yt-dlp podczas rozwiązywania filmu, czas trwania i to, co YouTube udostępnił: czy jest manifest HLS, rozdzielczości i kodeki, ścieżki audio, napisy. Pokazuje, na którym kroku rozwiązywanie się wywraca i czemu brakuje danej jakości."
+
+msgctxt "#30206"
+msgid "yt-dlp verbose mode"
+msgstr "yt-dlp: tryb szczegółowy (verbose)"
+
+msgctxt "#30207"
+msgid "yt-dlp's own verbose output: its version, Python, OpenSSL and certifi, JavaScript runtimes, the YouTube clients it tries. Long — for problems inside yt-dlp itself."
+msgstr "Własne szczegółowe wyjście yt-dlp: jego wersja, Python, OpenSSL i certifi, silniki JavaScript, klienci YouTube, których próbuje. Długie — na problemy w samym yt-dlp."
+
+msgctxt "#30208"
+msgid "Manifest rewriting"
+msgstr "Przepisywanie manifestu"
+
+msgctxt "#30209"
+msgid "The variants and audio groups before and after each filter (resolution, codec, quality), the fMP4 audio that replaces YouTube's, and where the rewritten manifest is served. Keeps a copy of the original manifest next to the rewritten one in Kodi's temp folder."
+msgstr "Warianty i grupy audio przed i po każdym filtrze (rozdzielczość, kodek, jakość), ścieżka audio fMP4 podmieniająca tę z YouTube i adres, pod którym serwowany jest przepisany manifest. Zachowuje kopię oryginalnego manifestu obok przepisanego w katalogu tymczasowym Kodi."
+
+msgctxt "#30210"
+msgid "Manifest server requests"
+msgstr "Żądania do serwera manifestów"
+
+msgctxt "#30211"
+msgid "Every request InputStream Adaptive makes to the add-on's local manifest server, with its status and size — whether the rewritten playlists were actually fetched."
+msgstr "Każde żądanie InputStream Adaptive do lokalnego serwera manifestów wtyczki, ze statusem i rozmiarem — czy przepisane playlisty zostały w ogóle pobrane."
+
+msgctxt "#30212"
+msgid "Subtitle downloads"
+msgstr "Pobieranie napisów"
+
+msgctxt "#30213"
+msgid "Which subtitle tracks the author uploaded, which are downloaded, and each file's size and download time."
+msgstr "Jakie napisy wgrał autor, które zostały pobrane, oraz rozmiar i czas pobrania każdego pliku."
+
+msgctxt "#30214"
+msgid "Kodi player: decoder, quality, buffering"
+msgstr "Odtwarzacz Kodi: dekoder, jakość, buforowanie"
+
+msgctxt "#30215"
+msgid "Watches Kodi's player while it plays what the add-on resolved: the video and audio decoder and whether decoding runs in hardware, quality changes made by InputStream Adaptive, every stall to buffer with its length, and a summary at the end."
+msgstr "Obserwuje odtwarzacz Kodi, gdy gra to, co rozwiązała wtyczka: dekoder obrazu i dźwięku oraz czy dekodowanie jest sprzętowe, zmiany jakości dokonywane przez InputStream Adaptive, każde zatrzymanie na buforowanie z czasem trwania i podsumowanie na końcu."
+
+msgctxt "#30216"
+msgid "Network and updates"
+msgstr "Sieć i aktualizacje"
+
+msgctxt "#30217"
+msgid "HTTP requests of the add-on"
+msgstr "Żądania HTTP wtyczki"
+
+msgctxt "#30218"
+msgid "Every request the add-on itself makes — manifest, audio index, subtitles, yt-dlp updates, the cast session — with status, size and time, and once the certificates it verifies against. Query strings and signatures are left out. yt-dlp's own requests are in its verbose mode."
+msgstr "Każde żądanie wykonywane przez samą wtyczkę — manifest, indeks audio, napisy, aktualizacje yt-dlp, sesja przesyłania — ze statusem, rozmiarem i czasem, a raz także certyfikaty, względem których weryfikuje połączenia. Parametry zapytań i podpisy są pomijane. Żądania samego yt-dlp pokazuje jego tryb szczegółowy."
+
+msgctxt "#30219"
+msgid "yt-dlp updater"
+msgstr "Aktualizator yt-dlp"
+
+msgctxt "#30220"
+msgid "Each step of a yt-dlp update check: the published checksum, the download, the validation against Kodi's Python and the clean-up of older copies."
+msgstr "Każdy krok sprawdzania aktualizacji yt-dlp: opublikowana suma kontrolna, pobieranie, sprawdzenie zgodności z Pythonem Kodi i usuwanie starszych kopii."
+
+msgctxt "#30221"
+msgid "Cast events"
+msgstr "Przesyłanie: zdarzenia"
+
+msgctxt "#30222"
+msgid "Every step of casting: discovery answers, pairing, the YouTube session, each command from the phone (<-) and each answer to it (->)."
+msgstr "Każdy krok przesyłania: odpowiedzi na wyszukiwanie, parowanie, sesja YouTube, każda komenda z telefonu (<-) i każda odpowiedź na nią (->)."
+
+msgctxt "#30223"
+msgid "Cast: raw protocol traffic"
+msgstr "Przesyłanie: surowy ruch protokołu"
+
+msgctxt "#30224"
+msgid "The cast protocol as received and sent, including the frequent position reports and keep-alives. Very long; for when YouTube changes something in the protocol."
+msgstr "Protokół przesyłania tak, jak przychodzi i wychodzi, łącznie z częstymi raportami pozycji i podtrzymaniami połączenia. Bardzo długie; na wypadek zmian w protokole po stronie YouTube."
+
+msgctxt "#30225"
+msgid "Local network discovery: every packet"
+msgstr "Wykrywanie w sieci: każdy pakiet"
+
+msgctxt "#30226"
+msgid "Every SSDP packet that reaches Kodi, not only the YouTube app's searches, and the headers of each DIAL request. For \"the phone does not see Kodi\": it shows whether the phone's searches arrive at all."
+msgstr "Każdy pakiet SSDP, który dociera do Kodi, nie tylko wyszukiwania aplikacji YouTube, oraz nagłówki każdego żądania DIAL. Na „telefon nie widzi Kodi”: pokazuje, czy wyszukiwania telefonu w ogóle docierają."
+
+msgctxt "#30227"
+msgid "Service"
+msgstr "Usługa"
+
+msgctxt "#30228"
+msgid "Background service"
+msgstr "Usługa w tle"
+
+msgctxt "#30229"
+msgid "The add-on's service: start-up and shutdown with their timing, the manifest server, settings changes as they are applied, and the update schedule."
+msgstr "Usługa wtyczki: uruchamianie i zamykanie z czasami, serwer manifestów, zmiany ustawień w chwili zastosowania i harmonogram aktualizacji."
+
+msgctxt "#30230"
+msgid "Web interface"
+msgstr "Interfejs WWW"
+
+msgctxt "#30231"
+msgid "Enable the web interface"
+msgstr "Włącz interfejs WWW"
+
+msgctxt "#30232"
+msgid "A page for any browser on the local network: paste a link to a video or a playlist — YouTube or any other site yt-dlp supports — to play it or add it to the queue, see what is playing, seek, pause, stop, and read the add-on's log. Off by default, because it opens a port on the network."
+msgstr "Strona dla dowolnej przeglądarki w sieci lokalnej: wklej link do filmu lub playlisty — z YouTube albo innego serwisu obsługiwanego przez yt-dlp — żeby go odtworzyć lub dodać do kolejki, zobacz, co gra, przewijaj, pauzuj, zatrzymuj i czytaj log wtyczki. Domyślnie wyłączone, bo otwiera port w sieci."
+
+msgctxt "#30233"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "#30234"
+msgid "Open this address in a browser on a phone or computer in the same network. A link added to it as ?play=<link> is played right away."
+msgstr "Otwórz ten adres w przeglądarce na telefonie lub komputerze w tej samej sieci. Link dopisany jako ?play=<link> zostanie od razu odtworzony."
+
+msgctxt "#30235"
+msgid "Require a PIN"
+msgstr "Wymagaj PIN-u"
+
+msgctxt "#30236"
+msgid "Off: anyone on the local network can use the page. On: a browser asks once for this PIN and remembers it."
+msgstr "Wyłączone: każdy w sieci lokalnej może korzystać ze strony. Włączone: przeglądarka raz pyta o ten PIN i go zapamiętuje."
+
+msgctxt "#30237"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#30238"
+msgid "New PIN"
+msgstr "Nowy PIN"
+
+msgctxt "#30239"
+msgid "Replaces the PIN; every browser that knew the old one has to enter the new one."
+msgstr "Zastępuje PIN; każda przeglądarka, która znała stary, musi wpisać nowy."
+
+msgctxt "#30240"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "#30241"
+msgid "The page is served on this port, on every address of the box. Change it only if another program already uses it."
+msgstr "Strona jest serwowana na tym porcie, na każdym adresie urządzenia. Zmień go tylko, jeśli używa go już inny program."
+
+msgctxt "#30242"
+msgid "Web interface requests"
+msgstr "Interfejs WWW: żądania"
+
+msgctxt "#30243"
+msgid "Every request to the web interface: address of the browser, method, path, status."
+msgstr "Każde żądanie do interfejsu WWW: adres przeglądarki, metoda, ścieżka, status."
+
+msgctxt "#30244"
+msgid "New web interface PIN: {}"
+msgstr "Nowy PIN interfejsu WWW: {}"
+
+msgctxt "#30245"
+msgid "Checking the {} channel…"
+msgstr "Sprawdzanie kanału {}…"
+
+msgctxt "#30246"
+msgid "Downloading yt-dlp {}…"
+msgstr "Pobieranie yt-dlp {}…"
+
+msgctxt "#30247"
+msgid "Checking it against Kodi's Python…"
+msgstr "Sprawdzanie zgodności z Pythonem Kodi…"
+
+msgctxt "#30248"
+msgid "Compiling it once, for fast starts…"
+msgstr "Jednorazowa kompilacja dla szybkiego startu…"
+
+msgctxt "#30249"
+msgid "yt-dlp {} is installed and ready. The next playback uses it."
+msgstr "yt-dlp {} jest zainstalowany i gotowy. Kolejne odtworzenie już go używa."
+
+msgctxt "#30250"
+msgid "Update cancelled; nothing was changed."
+msgstr "Aktualizacja przerwana; nic nie zmieniono."
+
+msgctxt "#30251"
+msgid "yt-dlp {} is installed; compiling it finishes at the next Kodi start."
+msgstr "yt-dlp {} jest zainstalowany; kompilacja dokończy się przy następnym starcie Kodi."
+
+msgctxt "#30252"
+msgid "Newest on the {} channel"
+msgstr "Najnowsza na kanale {}"
+
+msgctxt "#30253"
+msgid "You have the newest version."
+msgstr "Masz najnowszą wersję."
+
+msgctxt "#30254"
+msgid "A newer version is available."
+msgstr "Dostępna jest nowsza wersja."
+
+msgctxt "#30255"
+msgid "Close"
+msgstr "Zamknij"
+
+msgctxt "#30256"
+msgid "Update"
+msgstr "Aktualizuj"
+
+msgctxt "#30257"
+msgid "InputStream Adaptive is disabled: lowest quality. Enable it in Add-ons > VideoPlayer InputStream."
+msgstr "InputStream Adaptive jest wyłączony: najniższa jakość. Włącz go w Dodatki > VideoPlayer InputStream."
+
+msgctxt "#30300"
+msgid "Arabic"
+msgstr "Arabski"
+
+msgctxt "#30301"
+msgid "Bulgarian"
+msgstr "Bułgarski"
+
+msgctxt "#30302"
+msgid "Catalan"
+msgstr "Kataloński"
+
+msgctxt "#30303"
+msgid "Chinese"
+msgstr "Chiński"
+
+msgctxt "#30304"
+msgid "Croatian"
+msgstr "Chorwacki"
+
+msgctxt "#30305"
+msgid "Czech"
+msgstr "Czeski"
+
+msgctxt "#30306"
+msgid "Danish"
+msgstr "Duński"
+
+msgctxt "#30307"
+msgid "Dutch"
+msgstr "Niderlandzki"
+
+msgctxt "#30308"
+msgid "English"
+msgstr "Angielski"
+
+msgctxt "#30309"
+msgid "Estonian"
+msgstr "Estoński"
+
+msgctxt "#30310"
+msgid "Finnish"
+msgstr "Fiński"
+
+msgctxt "#30311"
+msgid "French"
+msgstr "Francuski"
+
+msgctxt "#30312"
+msgid "German"
+msgstr "Niemiecki"
+
+msgctxt "#30313"
+msgid "Greek"
+msgstr "Grecki"
+
+msgctxt "#30314"
+msgid "Hebrew"
+msgstr "Hebrajski"
+
+msgctxt "#30315"
+msgid "Hindi"
+msgstr "Hindi"
+
+msgctxt "#30316"
+msgid "Hungarian"
+msgstr "Węgierski"
+
+msgctxt "#30317"
+msgid "Indonesian"
+msgstr "Indonezyjski"
+
+msgctxt "#30318"
+msgid "Italian"
+msgstr "Włoski"
+
+msgctxt "#30319"
+msgid "Japanese"
+msgstr "Japoński"
+
+msgctxt "#30320"
+msgid "Korean"
+msgstr "Koreański"
+
+msgctxt "#30321"
+msgid "Latvian"
+msgstr "Łotewski"
+
+msgctxt "#30322"
+msgid "Lithuanian"
+msgstr "Litewski"
+
+msgctxt "#30323"
+msgid "Norwegian"
+msgstr "Norweski"
+
+msgctxt "#30324"
+msgid "Persian"
+msgstr "Perski"
+
+msgctxt "#30325"
+msgid "Polish"
+msgstr "Polski"
+
+msgctxt "#30326"
+msgid "Portuguese"
+msgstr "Portugalski"
+
+msgctxt "#30327"
+msgid "Romanian"
+msgstr "Rumuński"
+
+msgctxt "#30328"
+msgid "Russian"
+msgstr "Rosyjski"
+
+msgctxt "#30329"
+msgid "Serbian"
+msgstr "Serbski"
+
+msgctxt "#30330"
+msgid "Slovak"
+msgstr "Słowacki"
+
+msgctxt "#30331"
+msgid "Slovenian"
+msgstr "Słoweński"
+
+msgctxt "#30332"
+msgid "Spanish"
+msgstr "Hiszpański"
+
+msgctxt "#30333"
+msgid "Swedish"
+msgstr "Szwedzki"
+
+msgctxt "#30334"
+msgid "Thai"
+msgstr "Tajski"
+
+msgctxt "#30335"
+msgid "Turkish"
+msgstr "Turecki"
+
+msgctxt "#30336"
+msgid "Ukrainian"
+msgstr "Ukraiński"
+
+msgctxt "#30337"
+msgid "Vietnamese"
+msgstr "Wietnamski"
+
+msgctxt "#30258"
+msgid "Automatic captions when the author added none"
+msgstr "Napisy automatyczne, gdy autor nie dodał własnych"
+
+msgctxt "#30259"
+msgid "YouTube's automatic captions in the video's own language, the ones its page shows as auto-generated. Their machine translations are never used: YouTube refuses them to anything but a web browser."
+msgstr "Napisy automatyczne YouTube w języku filmu, te, które strona pokazuje jako wygenerowane automatycznie. Tłumaczeń maszynowych wtyczka nie używa: YouTube wydaje je tylko przeglądarce."

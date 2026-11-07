@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="YouTube">
+        <setting
+            id="youtube_api_key"
+            type="text"
+            label="YouTube Data API v3 – API Key"
+            default=""
+        />
+    </category>
+</settings>
